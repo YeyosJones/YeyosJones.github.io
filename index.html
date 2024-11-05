@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">DIEGO</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero.jpg" alt="">
+            </div>
+            <h1>Diego Gutierrez</h1>
+            <h2>Ingeniero en Sistemas Computacionales - Programador</h2>
+        <div class="redes">
+            <a href="https://www.instagram.com/diegogutierrezbautista/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/diego-gutierrez-bautista/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.amazon.com.mx/No-Me-Dejes-Entrar-hacker/dp/B0CFZC264V" target="_blank"><i class="fa-brands fa-amazon"></i></a>
+            <a href="https://github.com/YeyosJones" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Diego Gutierrez.</span> 
+            Con una sólida base en Ingeniería en Sistemas Computacionales y una especialización en Proyectos Informáticos y Tecnología Web, he avanzado mi conocimiento con un Máster en Seguridad Informática de la Universidad Internacional de la Rioja, enfocado también en Soporte tecnico y administración de activos.
+            <br>
+            Mi experiencia de cinco años en el sector privado se ha centrado en el desarrollo y la implementación de soluciones tecnológicas, destacándome especialmente en el ámbito del desarrollo web. He liderado proyectos que fusionan la tecnología web con la continuidad de negocio y operaciones, ofreciendo soluciones innovadoras adaptadas a empresas de diversos perfiles y necesidades regulatorias.
+            <br>
+            Aunque mi trayectoria destaca por mis habilidades en el desarrollo web, mi contribución académica abarca diversas áreas. He realizado investigaciones relevantes en ciberseguridad, siendo autor de publicaciones destacadas, y también soy reconocido como autor de un libro sobre ingeniería social y seguridad informática.
+            <br>
+            Actualmente me encuentro estudiando el doctorado en sistemas computacionales afirmando mi compromiso con la investigacion continua. En resumen, no solo sobresalgo en el desarrollo web, sino que también he logrado fusionar mis habilidades en esta área con un profundo conocimiento en seguridad informática y sistemas computacionales ofreciendo soluciones tecnológicas integrales y siendo una figura prominente en investigación en ambas disciplinas.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            18-07-1999
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            5524004969
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            ingdiego1999@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            https://diegogutierrezportafolio.000webhostapp.com/
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Tlalnepantla de Baz
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Ingeniero en sistemas</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-motorcycle"></i>
+                            <span>MOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-film"></i>
+                            <span>PELICULAS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+         <button onclick="descargarPDF()">
+             Descargar CV
+             <i class="fa-solid fa-download"></i>
+             <span class="overlay"></span>
+         </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>php</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Ingenieria en Sistemas Computacionales</h4>
+                        <span class="casa">Universidad Multicultaral CUDEC</span>
+                        <span class="fecha">2017 - 2020</span>
+                        <p>• Líder Generacional del Comité Estudiantil de Ingeniería en Sistemas Computacionales</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Especialidad en Proyectos Informaticos y Tecnologia Web</h4>
+                        <span class="casa">Universidad Multicultaral CUDEC</span>
+                        <span class="fecha">2020 - 2021</span>
+                        <p>• Acreedor a la Mención Honorifica por Promedio de Excelencia</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Maestria en Seguridad Informatica</h4>
+                        <span class="casa">Universidad Internacional de la Rioja</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p> •	Premio Extraordinario de Grado Y Master <br>
+                        •	Acreedor de Titulación por Alto Desempeño
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Doctorado en Sistemas Computacionales</h4>
+                        <span class="casa">Universidad Internacional Da Vinci</span>
+                        <span class="fecha">2024 - Presente</span>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Ingeniero en Sistemas</h4>
+                        <span class="casa">Centro de Tecnologia</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>•	Evaluar la adquisición y renovación de todos los equipos que componen el sistema tecnológico de la información de la empresa
+                        <br>
+                        •	A cargo de la instalación y configuración del HW y SW
+                        <br>
+                        •	Responsable del mantenimiento de la infraestructura de sistemas de la empresa 
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Ingeniero de Soporte Tecnico</h4>
+                        <span class="casa">Secretaria de la Defensa Nacional</span>
+                        <span class="fecha">2021 - 2022</span>
+                        <p>• A cargo de la instalación y configuración del HW y SW
+                        <br>
+                        •	Responsable del mantenimiento de la infraestructura de sistemas de la base militar 
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Responsable de Soporte Tecnico y Redes</h4>
+                        <span class="casa">Universidad Multicultural Cudec</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>•	Responsable del mantenimiento de la infraestructura de los sistemas de la empresa 
+                        <br>    
+                        •	Monitorear el funcionamiento de todos los equipos tecnológicos de la empresa 
+                        <br>    
+                        •	Soporte presencial y remoto al personal 
+                        <br>    
+                        •	Desarrollo Web 
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+             <a href="https://github.com/YeyosJones/Sistema-de-Inventario" target="_blank">    
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Sistema de Inventario</p>
+                    </div>
+                </div>
+             </a>        
+             <a href="https://github.com/YeyosJones/Calculadora" target="_blank">    
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Calculadora</p>
+                    </div>
+                </div>
+             </a> 
+             <a href="https://github.com/YeyosJones/Tic-Tac-Toe" target="_blank">   
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Tic Tac Toe</p>
+                    </div>
+                </div>
+             </a>
+            <a href="https://github.com/YeyosJones" target="_blank">    
+                <div class="proyecto">
+                    <img src="img/p4.JPG" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Mi portafolio</p>
+                    </div>
+                </div>
+             </a>     
+                <div class="proyecto">
+                    <img src="img/img.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Próximamente</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/img.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Desarrollo Web</h3>
+                        <p>Próximamente</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+            
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Tlalnepantla de Baz
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamame: 5524004969
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: ingdiego1999@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.instagram.com/diegogutierrezbautista/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/diego-gutierrez-bautista/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://www.amazon.com.mx/No-Me-Dejes-Entrar-hacker/dp/B0CFZC264V" target="_blank"><i class="fa-brands fa-amazon"></i></a>
+            <a href="https://github.com/YeyosJones" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+     <script>
+        //Funcion para descargar CV
+       function descargarPDF() {
+        // Crear un enlace invisible
+    var enlace = document.createElement('a');
+    enlace.href = 'doc/cv.pdf'; // Reemplaza con la ruta de tu PDF
+    enlace.download = 'Diego Gutierrez CV.pdf'; // Reemplaza con el nombre que deseas
+
+        // Simular clic en el enlace
+    enlace.style.display = 'none';
+    document.body.appendChild(enlace);
+    enlace.click();
+    document.body.removeChild(enlace);
+     }
+  </script>
+
+</body>
+</html>
